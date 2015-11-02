@@ -25,6 +25,7 @@ app.use(function(req, res, next) {
 });
 
 app.use(require('./q_practice'));
+app.use(require('./mysql'));
 
 var port = process.env.PORT || 3000;
 server.listen(port, function(){
